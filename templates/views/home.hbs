@@ -1,0 +1,192 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/homestyle.css">
+    <link rel="icon" href="/img/apple-icon-120x120.png">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 ">{{>sidebar}}</div>
+
+            <div class="col-sm-9 border-right border-left">
+                <div class="row">
+                    <div class="col border-bottom">
+                        <h3>Welcome home {{user.firstName}}...</h3>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col border-bottom">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Tweet here!</h5>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="What's happening?" required='true'></textarea>
+
+                            </div>
+                            <button type="submit" class="btn btn-primary creatTweet">Tweet</button>
+                        </form>
+                    </div>
+                    <div class="w-100 "></div>
+{{!-- --------------Tweet content------------------- --}}
+                    <div class="col border-bottom tweet">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img class="user" src="/img/apple-icon-114x114.png" alt="">
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <h6>Ajay Reddy</h6>
+                                    <span class="twitter-handle">@ajayreddy0112</span>
+                                </div>
+                                <div class="row">
+                                    <p>Hey guyz #ajayrocks...</p>
+                                </div>
+                                <div class="row">
+                                    <a class="mytweet" href=""><i class="fa fa-comments-o"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-retweet"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-heart-o"></i><span
+                                            class="count">0</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 "></div>
+                    <div class="col border-bottom tweet">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img class="user" src="/img/apple-icon-114x114.png" alt="">
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <h6>Mihir Paleykar</h6>
+                                    <span class="twitter-handle">@mihi1234</span>
+                                </div>
+                                <div class="row">
+                                    <p>Amazing #fantastic</p>
+                                </div>
+                                <div class="row">
+                                    <a class="mytweet" href=""><i class="fa fa-comments-o"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-retweet"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-heart-o"></i><span
+                                            class="count">0</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 "></div>
+                    <div class="col border-bottom tweet">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img class="user" src="/img/apple-icon-114x114.png" alt="">
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <h6>Mihir Paleykar</h6>
+                                    <span class="twitter-handle">@mihi1234</span>
+                                </div>
+                                <div class="row">
+                                    <p>Amazing #fantastic</p>
+                                </div>
+                                <div class="row">
+                                    <a class="mytweet" href=""><i class="fa fa-comments-o"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-retweet"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-heart-o"></i><span
+                                            class="count">0</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 "></div>
+                    <div class="col border-bottom tweet">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img class="user" src="/img/apple-icon-114x114.png" alt="">
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <h6>Mihir Paleykar</h6>
+                                    <span class="twitter-handle">@mihi1234</span>
+                                </div>
+                                <div class="row">
+                                    <p>Amazing #fantastic</p>
+                                </div>
+                                <div class="row">
+                                    <a class="mytweet" href=""><i class="fa fa-comments-o"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-retweet"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-heart-o"></i><span
+                                            class="count">0</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 "></div>
+                    <div class="col border-bottom tweet">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img class="user" src="/img/apple-icon-114x114.png" alt="">
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <h6>Mihir Paleykar</h6>
+                                    <span class="twitter-handle">@mihi1234</span>
+                                </div>
+                                <div class="row">
+                                    <p>Amazing #fantastic</p>
+                                </div>
+                                <div class="row">
+                                    <a class="mytweet" href=""><i class="fa fa-comments-o"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-retweet"></i><span
+                                            class="count">0</span></a>
+                                    <a class="mytweet" href=""><i class="fa fa-heart-o"></i><span
+                                            class="count">0</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+{{!-- --------------Tweet content------------------- --}}    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="js/sideBar.js"></script>
+</body>
+
+</html>

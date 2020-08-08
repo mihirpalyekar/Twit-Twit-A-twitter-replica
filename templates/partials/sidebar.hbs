@@ -1,0 +1,65 @@
+<ul class="nav flex-column">
+    <li class="top-icon">
+        <img src="/img/apple-icon-76x76.png" alt="">
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="/home">
+            <span class="icon">
+                <i class="fa fa-home"></i>
+            </span>
+            <span>Home</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a id="userProfile" class="nav-link" href="/user/profile" >
+            <span class="icon">
+                <i class="fa fa-user-o"></i>
+            </span>
+            <span>Profile</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+            <span>Followers</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+            <span>Following</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <div class="nav-link" >
+            <div id="logoutUser">Log out</div>
+        </div>
+    </li>
+    <li>
+        <button type="button" class="signup creatTweet" class="btn btn-primary " data-toggle="modal"
+            data-target="#exampleModal">Tweet
+        </button>
+    </li>
+</ul>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Tweet here!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="modalCreateTweet">
+                    <div class="form-group">
+                        <textarea id="side-tweet-content" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="What's happening?" required='true'></textarea>
+                        
+                    </div>
+                    <button id="side-tweet" type="submit" class="btn btn-primary">Tweet</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
