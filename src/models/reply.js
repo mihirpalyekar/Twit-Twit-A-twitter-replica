@@ -13,7 +13,7 @@ const replySchema = new mongoose.Schema({
         //required: true,
         maxlength: 1000
     },
-    tweetId: {
+    postId: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
         ref: 'Tweet'
